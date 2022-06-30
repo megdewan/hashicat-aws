@@ -4,6 +4,7 @@ module "s3_bucket" {
   bucket_prefix = "meghadewan"
   bucket = "my-s3-bucket"
   acl    = "private"
+  version = "2.8.0"
 
   versioning = {
     enabled = true
